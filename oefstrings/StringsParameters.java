@@ -1,4 +1,4 @@
-package vdab;
+package oefstrings;
 
 public class StringsParameters {
     public static String spoon = "Lepel";

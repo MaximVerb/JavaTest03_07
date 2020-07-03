@@ -1,5 +1,5 @@
-package vdab;
-import static vdab.StringsParameters.*;
+package oefstrings;
+import static oefstrings.StringsParameters.*;
 
 public class Main {
 
