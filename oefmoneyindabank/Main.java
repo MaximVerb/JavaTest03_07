@@ -9,5 +9,6 @@ public class Main {
         Rekening[] rekening = {eenSpaarrekening};
         Persoon aPerson = new Persoon(rekening,"Maxim");
         eenSpaarrekening.storten(eenOverzichtsrekening, 500 );
+        eenSpaarrekening.addInterest();
     }
 }

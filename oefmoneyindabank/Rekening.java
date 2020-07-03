@@ -2,7 +2,7 @@ package oefmoneyindabank;
 
 public class Rekening {
     private int rekeningNr;
-    private int bedrag;
+    private double bedrag;
 
     public Rekening(int rekeningNr, int bedrag) {
         setRekeningNr(rekeningNr);
@@ -17,17 +17,17 @@ public class Rekening {
         this.rekeningNr = rekeningNr;
     }
 
-    public int getBedrag() {
+    public double getBedrag() {
         return bedrag;
     }
 
-    public void setBedrag(int bedrag) {
+    public void setBedrag(double bedrag) {
         this.bedrag = bedrag;
     }
 
     public void storten(Rekening rekening, int bedrag) {
         this.setBedrag(this.getBedrag() - bedrag);
-        int extraBedrag = rekening.getBedrag() + bedrag;
+        double extraBedrag = rekening.getBedrag() + bedrag;
         rekening.setBedrag(extraBedrag);
     }
 }

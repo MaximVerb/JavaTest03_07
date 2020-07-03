@@ -12,7 +12,7 @@ public class Overzichtsrekening extends Rekening {
     }
 
     @Override
-    public int getBedrag() {
+    public double getBedrag() {
         return super.getBedrag();
     }
 
@@ -22,7 +22,7 @@ public class Overzichtsrekening extends Rekening {
     }
 
     @Override
-    public void setBedrag(int bedrag) {
+    public void setBedrag(double bedrag) {
         super.setBedrag(bedrag);
     }
 
