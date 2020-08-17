@@ -26,3 +26,4 @@ public class RandomObject {
         }
     }
 }
+// Geen C-stijl en Java-stijl curly braces door elkaar gebruiken. Maakt niet uit welke ge gebruikt op zich, zolang ge consistent blijft.
